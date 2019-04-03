@@ -63,7 +63,3 @@ public class Course extends Option {
     public PreReqs getPreReqs() {
         return this.preReqs;
     }
-
-    /** @return the semester in which this course is offered */
-    public String getSemesters(){ return this.semesters;}
-}
